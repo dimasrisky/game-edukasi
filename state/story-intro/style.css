@@ -1,0 +1,27 @@
+@font-face{
+    font-family: 'Inter';
+    src: url('../assets/fonts/static/Inter-SemiBold.ttf');
+}
+
+@font-face{
+    font-family: 'Poetsen One';
+    src: url('../assets/fonts/PoetsenOne-Regular.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas{
+    border: 2px solid black;
+}

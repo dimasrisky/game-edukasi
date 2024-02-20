@@ -1,0 +1,68 @@
+@font-face{
+    font-family: 'Inter';
+    src: url('../assets/fonts/static/Inter-SemiBold.ttf');
+}
+
+@font-face{
+    font-family: 'Poetsen One';
+    src: url('../assets/fonts/PoetsenOne-Regular.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.font-poetsen {
+    font-family: 'Poetsen One';
+}
+.font-inter {
+    font-family: 'Inter';
+}
+
+.container{
+    width: 1800px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../assets/background/background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container > div {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.container > div > h1{
+    font-size: 5rem;
+    color: white;
+    font-family: 'Poetsen One';
+}
+
+.container > div > a{
+    font-size: 1.5rem;
+    color: black;
+    font-family: 'Inter';
+    width: 15rem;
+    padding: 1rem 0rem;
+    border-radius: 1rem;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.main-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
